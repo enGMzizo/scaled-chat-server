@@ -1,0 +1,11 @@
+﻿
+node_modules
+test*.js
+*.log
+*Thumbs.db
+*sftp-config.json
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+# S3 Static Files

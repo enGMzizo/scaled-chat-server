@@ -1,0 +1,25 @@
+{
+  "name": "scaled-chat",
+  "version": "1.0.0",
+  "description": "Chat server that supports scalling",
+  "main": "app",
+  "scripts": {
+    "start": "PORT=3000 node app.js & PORT=4000 node app.js",
+    "test": "mocha ./test"
+  },
+  "keywords": [
+    "sockiet.io"
+  ],
+  "author": "Mahmoud Ezzat",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.3.5",
+    "connect-redis": "^3.0.2",
+    "cookie-parser": "^1.4.1",
+    "crc": "^3.4.0",
+    "express": "^4.10.2",
+    "express-session": "^1.13.0",
+    "socket.io": "^1.4.5",
+    "socket.io-redis": "^1.0.0"
+  }
+}
