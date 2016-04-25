@@ -1,2 +1,2 @@
 # chat-server
-Simple scalable chat server using `[connect-redis](https://github.com/tj/connect-redis)` to store session and `[socket.io-redis](https://github.com/socketio/socket.io-redis)` to share events between instances under load balancer
+Simple scalable chat server using [`connect-redis`](https://github.com/tj/connect-redis) to store session and [`socket.io-redis`](https://github.com/socketio/socket.io-redis) to share events between instances under load balancer
