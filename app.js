@@ -1,6 +1,6 @@
 'use strict';
-const REDIS_URL = process.env.REDIS_URL;
-const DAY_IN_SECONDS = 60 * 60 * 24;
+var REDIS_URL = process.env.REDIS_URL;
+var DAY_IN_SECONDS = 60 * 60 * 24;
 
 var debug = require("debug")("chat-app:main");
 var app = require('express')();
